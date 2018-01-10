@@ -1,5 +1,6 @@
 var builder = require('botbuilder');
 var restify = require('restify');
+require('env2')('.env');
 
 // Setup Restify Server
 var server = restify.createServer();
